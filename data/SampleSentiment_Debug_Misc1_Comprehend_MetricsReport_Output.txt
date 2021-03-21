@@ -1,0 +1,20 @@
+
+========================================
+
+--- Comprehend ---
+
+Debug is True.
+
+Load input file: BatchSentimentResults_debug.json.
+Getting prior Comprehend Sentiment on 10 test rows...
+
+Load input file: BatchKeyphraseResults_debug.json.
+Getting prior Comprehend key phrases on 10 test rows...
+
+Removed key phrases that occurred less than 2 times.
+
+========== Execution Statistics ==========
+
+Started at: 2021-03-21 15:33:38
+Ended at: 2021-03-21 15:33:38
+Total runtime 0.0 minutes or 0.0 hours
