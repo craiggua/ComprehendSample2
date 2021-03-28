@@ -67,8 +67,6 @@ Info:
 
 """
 
-import sys
-
 import pandas as pd
 
 from sklearn import metrics
@@ -79,7 +77,6 @@ import unicodedata
 
 import boto3
 from operator import itemgetter
-import math
 import json
 import time
 from datetime import datetime, timedelta
