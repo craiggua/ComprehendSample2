@@ -21,7 +21,7 @@ h) Choose one or both Comprehend services to call with getSentiment = True/False
 
 <b>Runtime:</b>
 
-If HTML input is processed, a custom function removes HTML tags and escaped chars like ;nbsp yet leaves the user facing readable text shown on an HTML page. A custom function cleans and normalizes the text (lowercase, removes \n, removes multiple spaces between words)and removes most extended characters.
+The text is extracted from the previously configured commentColumnnumber. If HTML input is processed, a custom function removes HTML tags and escaped chars like ;nbsp yet leaves the user facing readable text shown on an HTML page. A custom function cleans and normalizes the text (lowercase, removes \n, removes multiple spaces between words)and removes most extended characters.
 
 Loads a file with a custom set of stop words.
 
