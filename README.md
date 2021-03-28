@@ -7,7 +7,7 @@ a) Set the relative path to the input file name.
 
 b) Set the relative path to the stop words file.
 
-c) Overall, to save on Comprehend costs there is a debug option "debug = False/True". If configured the first time with "Debug = False" and "saveJSON = True" it will save the raw Comprehend output to JSON file names of your choosing. Once the JSON exists then set "debug = True" and the JSON file names will be read and used to call the custom functions within the larger file rather than call Comprehend. This is a good option to further process the data after these APIs have been called. 
+c) Overall, to save on Comprehend costs there is a debug option "debug = False/True". If configured the first time with "Debug = False" and "saveJSON = True" it will save the raw Comprehend output to JSON file names of your choosing. Once the JSON exists then set "debug = True" and the JSON file names will be read and used to call the custom functions within the larger file rather than call Comprehend. This is a good option to debug subsequent processing after these APIs have been called. 
 
 d) commentColumnnumber is a zero based integer that maps to the input file and represents where the comments can be found. These comments are passed to determine the sentiment and key phrase APIs.
 
