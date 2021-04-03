@@ -59,6 +59,8 @@ c) Rather than keep the configs within the .PY file (ex: input file path, Debug,
 
 d) Of course, more error handling could be added, try… except blocks, etc. 
 
+e) Better security. Embedding the aws_access_key_id and aws_secret_access_key in the file is ok to get an idea of how the sample code functions, but not good beyond that. 
+
 <b>That’s all!</b>
 
 I hope this overview and the sample code provided valuable insight into how Comprehend might be used to summarize text. Feedback is always welcome. 
